@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/labstack/echo"
+	"github.com/shotastage/servicestatus/status"
 )
 
 func port() string {
@@ -23,5 +24,7 @@ func main() {
 	e.GET("/", func(c echo.Context) error {
 		return c.String(http.StatusOK, "Main screen")
 	})
+
+	e.GET("/status_check", status.StatusCheck)
 	e.Logger.Fatal(e.Start(":1323"))
 }
