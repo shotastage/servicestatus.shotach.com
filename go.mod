@@ -1,6 +1,6 @@
 module github.com/shotastage/servicestatus
 
-go 1.12
+go 1.16
 
 require (
 	github.com/labstack/echo v3.3.10+incompatible
