@@ -66,7 +66,18 @@ class App extends React.Component {
             <Col>
               <Card>
                 <Body>
-                  <h1>2oo.pw</h1>
+                  <h1>shotach.com</h1>
+                  <DownMark />
+                </Body>
+              </Card>
+            </Col>
+          </Row>
+
+          <Row style={{ margin: 10 }}>
+            <Col>
+              <Card>
+                <Body>
+                  <h1>l.pnstr.com</h1>
                   <DownMark />
                 </Body>
               </Card>
